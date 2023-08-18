@@ -68,6 +68,14 @@
         }
     },
 
+    "beneficiaryMembers": [
+        {
+            "@type": "Person",
+            "internalIdentifier": "<member_id>",
+            "externalIdentifier": "<external_member_id>"
+        }
+    ],
+
     "fulfillmentDefinition": {
         "fulfillmentType": "<fulfillment_type - curbside, lockers, etc.>",
         "fulfillmentSystem": "<fulfillment_system - Order Ahead>",
