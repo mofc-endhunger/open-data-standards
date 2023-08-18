@@ -1,0 +1,80 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Service",
+    
+    "family": {
+        "@type": "Person",
+        "internalIdentifier": "<family_id>",
+        "externalIdentifier": "<external_family_id>",
+        "counts": {
+            "0_17": "<child_count>",
+            "18_59": "<adult_count>",
+            "60_115": "<senior_count>"
+        }
+    },
+    "member": {
+        "@type": "Person",
+        "internalIdentifier": "<member_id>"
+    },
+
+    "serviceDefinition": {
+        "internalName": "<service_name>",
+        "internalIdentifier": "<service_id>",
+        "airsStandard": {
+            "category": {
+                "@type": "Category",
+                "internalIdentifier": "",
+                "internalName": "",
+                "subCategory": {
+                    "@type": "Category",
+                    "internalIdentifier": "",
+                    "internalName": ""
+                }
+            }
+        },
+        "providers": [
+            {
+                "context": "https://schema.org/",
+                "@type": "Organization",
+                "nationalEntity": {
+                    "internalIdentifier": "<national_entity_id>",
+                    "internalName": "<national_entity_name>"
+                },
+                "stateEntity": {
+                    "internalIdentifier": "<state_id>",
+                    "internalName": "<state_name>"
+                },
+                "foodbankEntity": {
+                    "internalIdentifier": "<foodbank_id>",
+                    "internalName": "<foodbank_name>"
+                },
+                "agencyEntity": {
+                    "internalIdentifier": "<loc_id>",
+                    "internalName": "<loc_name>",
+                    "foodbankID": "<loc_num>"
+                },
+                "subAgencyDataClassificationEntity": {
+                    "internalIdentifier": "<event_id>",
+                    "internalName": "<event_name>"
+                }
+            }
+        ],
+        "scheduleStartDateTime": "<service_start_date - lockers example, start of pickup window>",
+        "scheduleEndDateTime": "<service_end_date - lockers example, end of pickup window>",
+        "source": {
+            "internalIdentifier": "<source_id>",
+            "internalName": "<source_name>",
+            "externalIdentifier": "<external_service_identifier>"
+        }
+    },
+
+    "fulfillmentDefinition": {
+        "fulfillmentType": "<fulfillment_type - curbside, lockers, etc.>",
+        "fulfillmentSystem": "<fulfillment_system - Order Ahead>",
+        "fulfillmentSystemOrderID": "<fulfillment_system_order_id - Order Ahead order id>",
+        "fulfillmentSystemOrderNumber": "<fulfillment_system_order_number - Order Ahead order number - optional>",
+        "fulfillmentDateTime": "<optional - used to record data after service. Example, lockers fulfillment would be the date they picked up the order>",
+        "fulfillmentOrderStatusID": "<status_id>",
+        "fulfillmentOrderStatusName": "<status_name>"
+    }
+}

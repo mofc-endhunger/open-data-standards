@@ -1,0 +1,68 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Person",
+
+    "familyID": "<family_id>",
+    "givenName": "<first_name>",
+    "familyName": "<last_name>",
+    "ageOrBirthDate": {
+        "age": "<age_or_dob.age>",
+        "dateAgeRecorded": "<age_or_dob.date_age_recorded>",
+        "birthDate": "<age_or_dob.dob>"
+    },
+    "headOfHouse": "<head_of_house1>",
+    "source": {
+        "internalIdentifier": "<source_id>",
+        "internalName": "<source_name>",
+        "externalIdentifier": "<external_member_identifier - this member came from X (Avengers, CIE, etc..) source>"
+    },
+    "status": {
+        "internalName": "<status_id>",
+        "internalIdentifier": "<status_name>"
+    },
+
+    "additionalName": "<middle_name>",
+    "suffix": "<suffix>",
+    "gender":  {
+        "internalIdentifier": "<gender_id>",
+        "internalName": "<gender_name>"
+    },
+    "deathDate": "<deceased_date>",
+    "enableSearchResults": "<searchable1>",
+    "race": {
+        "internalIdentifier": "<race_id>",
+        "internalName": "<race_name>"
+    },
+    "ethnicity": {
+        "internalIdentifier": "<ethnic_id>",
+        "internalName": "<ethnic_name>"
+    },
+    "citizenship": {
+        "internalIdentifier": "<immigrant_id>",
+        "internalName": "<immigrant_name>"
+    },
+    "language": {
+        "internalIdentifier": "<language_id>",
+        "internalName": "<language_name>"
+    },
+    "disability": {
+        "internalIdentifier": "<disability_id>",
+        "internalName": "<disability_name>"
+    },
+    "military": {
+        "internalIdentifier": "<military_id>",
+        "internalName": "<military_name>"
+    },
+    "healthcare": {
+        "internalIdentifier": "<healthcare_id>",
+        "internalName": "<healthcare_name>"
+    },
+    "education": {
+        "internalIdentifier": "<education_id>",
+        "internalName": "<education_name>"
+    },
+    "employment": {
+        "internalIdentifier": "<employment_id>",
+        "internalName": "<employment_name>"
+    }
+}
