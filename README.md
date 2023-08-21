@@ -1,6 +1,6 @@
 # Open Data Standards
 
-This is a GitHub Repository for the Open Data Standards project. The project is being supported by [Mid-Ohio Food Collective](https://www.mofc.org/).
+This is a GitHub Repository for the Open Data Standards project.
 
 ## Schema.org
 
